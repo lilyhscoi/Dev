@@ -1,0 +1,64 @@
+.login{
+
+    background-color: greenyellow; text-align: right;
+}
+
+.menu{
+
+    background-color: greenyellow; text-align: center;
+}
+
+.item{
+
+    background-color: rebeccapurple;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 30px 100px;
+    gap: 10px;
+
+}
+
+#login {
+    grid-row: 1 / 2;
+    grid-column: 1 / 6;
+    background-color: lightgoldenrodyellow;
+}
+
+#client {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    background-color: lightgoldenrodyellow;
+}
+
+#order {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    background-color:  lightgoldenrodyellow;
+}
+
+#loan {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    background-color:  lightgoldenrodyellow;
+}
+
+#late {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+    background-color:  lightgoldenrodyellow;
+}
+
+#schedule {
+    grid-row: 2 / 3;
+    grid-column: 5 / 6;
+    background-color:  lightgoldenrodyellow;
+}
+
+#contents {
+    grid-row: 3 / 4;
+    grid-column: 1 / 6;
+    background-color:  lightgoldenrodyellow;
+}
